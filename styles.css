@@ -741,11 +741,29 @@ footer ul li{
 }
 
 @media screen and (max-width: 479px) {
+
+  nav a{
+    font-size: 12px;
+  }
   .errow{
     margin-top: 24px;
   }
   .text{
     margin: 20px 0;
+  }
+  nav{
+      margin: 20px 16px;
+  }
+  nav ul{
+    width: auto;
+
+  }
+  .logo{
+    margin: 0 auto;
+  }
+
+  nav li{
+    margin-right: 16px;
   }
 
   .present{
